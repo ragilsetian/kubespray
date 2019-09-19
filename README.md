@@ -12,6 +12,12 @@
     # Install dependencies from ``requirements.txt``
     sudo pip install -r requirements.txt
     
+    #install terraform
+    wget https://releases.hashicorp.com/terraform/0.11.14/terraform_0.11.14_linux_amd64.zip
+    unzip terraform_0.11.14_linux_amd64.zip
+    mv terraform /usr/local/bin/
+    terraform --version
+    
 #### Deploy instances
     # login file rc
     source filerc
