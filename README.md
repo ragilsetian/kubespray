@@ -26,7 +26,7 @@
     cd kubespray/inventory/cluster1/
     terraform init --var-file=cluster.tf contrib/openstack/
     terraform plan --var-file=cluster.tf contrib/openstack/
-    terraform apply --var-file=cluster.tf contrib/openstack/  # deploying instnaces
+    terraform apply --var-file=cluster.tf contrib/openstack/  # deploying instances
     
     # verification
     terraform show --var-file=cluster.tf contrib/openstack/
